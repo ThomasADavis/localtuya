@@ -1,7 +1,7 @@
 """Module used to suggest datapoints for a platform."""
-from homeassistant.const import CONF_ID
-
 from importlib import import_module
+
+from homeassistant.const import CONF_ID
 
 
 def _suggest_defaults(suggestions, dps_strings, dps_in_use):

@@ -3,8 +3,8 @@ import logging
 from functools import partial
 
 import voluptuous as vol
-from homeassistant.const import CONF_ID
 from homeassistant.components.switch import DOMAIN, SwitchEntity
+from homeassistant.const import CONF_ID
 
 from .common import LocalTuyaEntity, async_setup_entry
 from .const import (

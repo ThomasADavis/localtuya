@@ -15,7 +15,7 @@ from homeassistant.components.light import (
     SUPPORT_COLOR_TEMP,
     LightEntity,
 )
-from homeassistant.const import CONF_ID, CONF_BRIGHTNESS, CONF_COLOR_TEMP
+from homeassistant.const import CONF_BRIGHTNESS, CONF_COLOR_TEMP, CONF_ID
 
 from .common import LocalTuyaEntity, async_setup_entry
 from .const import (
